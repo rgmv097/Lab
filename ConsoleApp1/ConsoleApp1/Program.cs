@@ -11,11 +11,9 @@ namespace ConsoleApp1
             int NumSum = 0;
             foreach (int i in arr)
             {
-                if (i % 2 != 0) { NumSum += i;  }
+                if (i % 2 != 0) { NumSum += i; }
             }
             Console.WriteLine(NumSum);
-
-
         }
     }
 }
